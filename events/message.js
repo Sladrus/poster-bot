@@ -1,5 +1,5 @@
 function isCommand(text) {
-  const commands = ['/start'];
+  const commands = ['/start', '/push'];
   return commands.includes(text) ? text : null;
 }
 

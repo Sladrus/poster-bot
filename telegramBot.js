@@ -13,6 +13,8 @@ class TelegramBotApp {
     this.registerEvent('callback_query', this.bot);
     this.registerEvent('message', this.bot);
     this.registerCommand('start');
+    this.registerCommand('push');
+
     console.log(`Telegram Bot started`);
   }
 
